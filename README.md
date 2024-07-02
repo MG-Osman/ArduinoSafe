@@ -2,7 +2,7 @@
 [![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)](https://www.arduino.cc/)
 
 [![Simulation on Wokwi](https://github.com/MG-Osman/ArduinoSafe/assets/58115228/f65196db-68e2-4ef5-9a8e-ffb34c9bc546)](https://wokwi.com/projects/402300394862997505)
-*Arduino Safe Simulation on Wokwi - Click to view the live simulation*
+*Arduino Safe Simulation on Wokwi - Click image to view the live simulation*
 
 ## Description
 
@@ -50,3 +50,6 @@ This project implements a digital safe system using an Arduino Uno. It features 
 2. Enter a 4-digit PIN to lock the safe.
 3. To unlock, enter the correct PIN.
 4. When unlocked, press 'A' to lock the safe again.
+
+ [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MG-Osman&layout=compact&theme=radical)](https://github.com/MG-Osman)
+
