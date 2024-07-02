@@ -3,8 +3,7 @@
 
 
 
-![image](https://github.com/MG-Osman/ArduinoSafe/assets/58115228/f65196db-68e2-4ef5-9a8e-ffb34c9bc546)
-![Simulation on Wokwi can be seen here]
+![Simulation on Wokwi can be seen here:](https://github.com/MG-Osman/ArduinoSafe/assets/58115228/f65196db-68e2-4ef5-9a8e-ffb34c9bc546)
 
 
 
