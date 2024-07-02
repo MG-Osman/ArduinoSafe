@@ -1,11 +1,11 @@
+Here's the updated README with hyperlinks and captions:
+
+```markdown
 # ArduinoSafe
-![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+[![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)](https://www.arduino.cc/)
 
-
-
-![Simulation on Wokwi can be seen here:](https://github.com/MG-Osman/ArduinoSafe/assets/58115228/f65196db-68e2-4ef5-9a8e-ffb34c9bc546)
-
-
+[![Simulation on Wokwi](https://github.com/MG-Osman/ArduinoSafe/assets/58115228/f65196db-68e2-4ef5-9a8e-ffb34c9bc546)](https://wokwi.com/projects/382086358098834433)
+*Figure 1: Arduino Safe Simulation on Wokwi - Click to view the live simulation*
 
 ## Description
 
@@ -32,16 +32,16 @@ This project implements a digital safe system using an Arduino Uno. It features 
 
 ## Software Dependencies
 
-- Arduino IDE
+- [Arduino IDE](https://www.arduino.cc/en/software)
 - Libraries:
-  - Keypad.h
-  - Servo.h
-  - LiquidCrystal.h
-  - EEPROM.h
+  - [Keypad.h](https://playground.arduino.cc/Code/Keypad/)
+  - [Servo.h](https://www.arduino.cc/reference/en/libraries/servo/)
+  - [LiquidCrystal.h](https://www.arduino.cc/en/Reference/LiquidCrystal)
+  - EEPROM.h (built-in)
 
 ## Setup and Installation
 
-1. Connect the hardware components according to the circuit diagram (provide link or include image).
+1. Connect the hardware components according to the circuit diagram.
 2. Install the Arduino IDE and required libraries.
 3. Clone this repository or download the source code.
 4. Open the `.ino` file in Arduino IDE.
@@ -53,3 +53,12 @@ This project implements a digital safe system using an Arduino Uno. It features 
 2. Enter a 4-digit PIN to lock the safe.
 3. To unlock, enter the correct PIN.
 4. When unlocked, press 'A' to lock the safe again.
+
+```
+
+In this updated version:
+
+1. The Arduino badge at the top is now clickable and links to the Arduino website.
+2. The Wokwi simulation image is now clickable and links to the actual simulation.
+3. A caption has been added below the Wokwi simulation image.
+4. Hyperlinks have been added to the Software Dependencies section, linking to the respective library pages or downloa
