@@ -2,7 +2,10 @@
 ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
 
 
+
 ![image](https://github.com/MG-Osman/ArduinoSafe/assets/58115228/f65196db-68e2-4ef5-9a8e-ffb34c9bc546)
+![Simulation on Wokwi can be seen here]
+
 
 
 ## Description
