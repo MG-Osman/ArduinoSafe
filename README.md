@@ -1,6 +1,4 @@
-Here's the updated README with hyperlinks and captions:
 
-```markdown
 # ArduinoSafe
 [![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)](https://www.arduino.cc/)
 
@@ -54,11 +52,3 @@ This project implements a digital safe system using an Arduino Uno. It features 
 3. To unlock, enter the correct PIN.
 4. When unlocked, press 'A' to lock the safe again.
 
-```
-
-In this updated version:
-
-1. The Arduino badge at the top is now clickable and links to the Arduino website.
-2. The Wokwi simulation image is now clickable and links to the actual simulation.
-3. A caption has been added below the Wokwi simulation image.
-4. Hyperlinks have been added to the Software Dependencies section, linking to the respective library pages or downloa
