@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-membrane-keypad", "id": "keypad1", "top": 94, "left": 332, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": 238, "left": 115.2, "attrs": {} },
+    { "type": "wokwi-lcd1602", "id": "lcd1", "top": -92.57, "left": 323.2, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": 54, "left": 282.2, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -122.4,
+      "left": 232.2,
+      "attrs": { "volume": "0.1" }
+    }
+  ],
+  "connections": [
+    [ "uno:5", "keypad1:C1", "green", [ "v0" ] ],
+    [ "uno:4", "keypad1:C2", "blue", [ "v0" ] ],
+    [ "uno:3", "keypad1:C3", "purple", [ "v0" ] ],
+    [ "uno:2", "keypad1:C4", "gray", [ "v0" ] ],
+    [ "uno:9", "keypad1:R1", "yellow", [ "v0" ] ],
+    [ "uno:8", "keypad1:R2", "orange", [ "v0" ] ],
+    [ "uno:7", "keypad1:R3", "red", [ "v0" ] ],
+    [ "uno:6", "keypad1:R4", "brown", [ "v0" ] ],
+    [ "uno:10", "servo1:PWM", "orange", [ "v0" ] ],
+    [ "uno:GND.2", "servo1:GND", "black", [ "v0" ] ],
+    [ "uno:5V", "servo1:V+", "red", [ "v0" ] ],
+    [ "uno:A0", "lcd1:RS", "green", [ "v0" ] ],
+    [ "uno:A1", "lcd1:E", "blue", [ "v0" ] ],
+    [ "uno:A2", "lcd1:D4", "purple", [ "v0" ] ],
+    [ "uno:A3", "lcd1:D5", "gray", [ "v0" ] ],
+    [ "uno:A4", "lcd1:D6", "yellow", [ "v0" ] ],
+    [ "uno:A5", "lcd1:D7", "orange", [ "v0" ] ],
+    [ "uno:GND.1", "lcd1:VSS", "black", [ "v0" ] ],
+    [ "uno:5V", "lcd1:VDD", "red", [ "v0" ] ],
+    [ "uno:GND.1", "lcd1:RW", "black", [ "v0" ] ],
+    [ "uno:5V", "lcd1:V0", "red", [ "v0" ] ],
+    [ "uno:5V", "lcd1:A", "red", [ "v0" ] ],
+    [ "uno:GND.1", "lcd1:K", "black", [ "v0" ] ],
+    [ "uno:11", "led1:A", "orange", [ "v0" ] ],
+    [ "uno:GND.3", "led1:C", "black", [ "v0" ] ],
+    [ "uno:12", "bz1:1", "red", [ "v0" ] ],
+    [ "uno:GND.3", "bz1:2", "black", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
