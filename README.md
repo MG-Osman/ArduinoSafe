@@ -1,6 +1,10 @@
 # ArduinoSafe
 ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
 
+
+![image](https://github.com/MG-Osman/ArduinoSafe/assets/58115228/f65196db-68e2-4ef5-9a8e-ffb34c9bc546)
+
+
 ## Description
 
 This project implements a digital safe system using an Arduino Uno. It features PIN-based authentication, an LCD interface for user interaction, and a servo motor to simulate the locking mechanism. The system provides a secure and interactive way to manage access to a simulated safe.
