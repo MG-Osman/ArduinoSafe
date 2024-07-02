@@ -47,7 +47,7 @@ This project implements a digital safe system using an Arduino Uno. It features 
 ## Usage
 
 1. On first run, the system will prompt for initial PIN setup.
-2. Enter a 4-digit PIN to lock the safe.
+2. Enter a 4-digit PIN to lock the safe with the # key to press enter.
 3. To unlock, enter the correct PIN.
 4. When unlocked, press 'A' to lock the safe again.
 
